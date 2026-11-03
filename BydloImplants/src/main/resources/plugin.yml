@@ -4,7 +4,7 @@ main: ru.bydloland.implants.BydloImplantsPlugin
 api-version: "1.21"
 authors: [Smirty_228]
 softdepend: [BydloClasses, CraftEngine]
-description: Netrunner cyber implants
+description: Кибернетические импланты с вариантами и уровнями улучшения
 commands:
   implants:
     description: Open implants menu

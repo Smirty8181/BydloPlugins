@@ -3,7 +3,7 @@ version: '1.5.0'
 main: ru.bydlolend.bydlomod.BydloMod
 api-version: '1.21'
 author: Smirty_228
-description: Twitch + mute + warns + reports + support + mail + staff
+description: Инструменты модерации, обращений игроков и управления сервером
 softdepend: [voicechat, BydloPrefixes, BydloPrison, SuperVanish, InvSeePlusPlus, CoreProtect]
 commands:
   serverlock:

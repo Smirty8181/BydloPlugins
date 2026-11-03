@@ -5,4 +5,4 @@ api-version: "1.21"
 authors: [Smirty_228]
 depend: [CraftEngine]
 softdepend: [BydloClasses]
-description: Mithril smeltery with vanilla furnace GUI
+description: Плавильня мифрила с интерфейсом обычной печи

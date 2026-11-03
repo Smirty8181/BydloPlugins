@@ -3,7 +3,7 @@ version: '1.0.0'
 main: ru.bydloland.scale.BydloScale
 api-version: '1.21'
 author: Smirty_228
-description: Working /scale without TimuCore
+description: Изменение масштаба игрока через атрибут Minecraft SCALE
 commands:
   scale:
     description: Изменить рост игрока

@@ -3,7 +3,7 @@ version: 1.0.0
 main: ru.bydloland.paint.BydloPaintPlugin
 api-version: "1.21"
 authors: [Smirty_228]
-description: Paint on crafted canvases (wool + sticks), max 10x10 maps
+description: Создание и рисование на картах-холстах размером до 10 на 10 блоков
 commands:
   canvas:
     description: Canvas help / admin give

@@ -3,7 +3,7 @@ version: '1.0.2'
 main: ru.bydloland.discs.BydloDiscsPlugin
 api-version: '1.21'
 author: Smirty_228
-description: Custom music discs from YouTube/VK/Yandex links
+description: Персональные музыкальные пластинки по ссылкам YouTube, VK и Яндекс Музыки
 softdepend: [voicechat]
 commands:
   disc:

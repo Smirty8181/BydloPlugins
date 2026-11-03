@@ -4,7 +4,7 @@ main: ru.bydloland.crafts.BydloCraftsPlugin
 api-version: "1.21"
 authors: [Smirty_228]
 softdepend: [CraftEngine]
-description: Visual crafting recipes GUI for BydloLand
+description: Графический справочник рецептов предметов БыдлоЛенд
 commands:
   crafts:
     description: Open crafts GUI

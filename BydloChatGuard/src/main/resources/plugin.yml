@@ -3,5 +3,5 @@ version: '1.0.0'
 main: ru.bydloland.chatguard.BydloChatGuard
 api-version: '1.21'
 author: Smirty_228
-description: Hides plugin update/offline-mode nags from chat
+description: Фильтрация некоторых системных предупреждений в чате
 depend: [ProtocolLib]

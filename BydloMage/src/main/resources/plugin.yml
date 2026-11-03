@@ -5,7 +5,7 @@ api-version: "1.21"
 authors: [Smirty_228]
 depend: [BydloClasses]
 softdepend: [CraftEngine]
-description: Mage race — staffs and magic tower
+description: Магический класс, посохи и башня мага
 commands:
   magetower:
     description: Open magic tower GUI
