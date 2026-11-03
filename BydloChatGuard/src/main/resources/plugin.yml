@@ -1,0 +1,7 @@
+name: BydloChatGuard
+version: '1.0.0'
+main: ru.bydloland.chatguard.BydloChatGuard
+api-version: '1.21'
+author: Smirty_228
+description: Hides plugin update/offline-mode nags from chat
+depend: [ProtocolLib]

@@ -1,0 +1,16 @@
+name: BydloScale
+version: '1.0.0'
+main: ru.bydloland.scale.BydloScale
+api-version: '1.21'
+author: Smirty_228
+description: Working /scale without TimuCore
+commands:
+  scale:
+    description: Изменить рост игрока
+    usage: /scale <0.1-16> [игрок]
+    aliases: [nscale, noobscale, size, noobsize, nsize, рост]
+    permission: noobscale.use
+permissions:
+  noobscale.use:
+    description: Использовать /scale
+    default: op

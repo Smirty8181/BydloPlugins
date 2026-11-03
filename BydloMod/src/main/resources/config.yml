@@ -1,0 +1,31 @@
+prefix: "&d[&5Быдло&d]&r"
+
+cinematic:
+  seconds: 12
+
+warns:
+  auto-mute-count: 3
+  auto-mute-duration: "30м"
+  black-mark-duration: "30м"
+
+reports:
+  cooldown-seconds: 60
+
+support:
+  cooldown-seconds: 60
+
+mail:
+  cooldown-seconds: 30
+  max-length: 800
+
+# Ключи: /twitchadmin setid / setsecret
+twitch:
+  client-id: ""
+  client-secret: ""
+  poll-seconds: 60
+  announce: |-
+    &d&m                                        
+    &d  ✦ &f%player% &dподрубил стрим!
+    &7  twitch.tv/%twitch%
+      %description%
+    &d&m                                        

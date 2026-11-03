@@ -1,0 +1,142 @@
+name: BydloMod
+version: '1.5.0'
+main: ru.bydlolend.bydlomod.BydloMod
+api-version: '1.21'
+author: Smirty_228
+description: Twitch + mute + warns + reports + support + mail + staff
+softdepend: [voicechat, BydloPrefixes, BydloPrison, SuperVanish, InvSeePlusPlus, CoreProtect]
+commands:
+  serverlock:
+    description: Admin GUI for End/Nether/trade locks
+    aliases: [locks, blockgui, блокировки]
+    permission: bydlo.adminlock
+  twitch:
+    description: Link your Twitch and stream description
+    aliases: [Twitch, TWITCH]
+    permission: bydlo.twitch
+  twitchadmin:
+    description: Set Twitch API keys in-game
+    permission: bydlo.twitch.admin
+  vmute:
+    description: Mute Simple Voice Chat
+    aliases: [вмут, voicemute]
+    permission: bydlo.vmute
+  unvmute:
+    description: Unmute voice
+    aliases: [развмут, unvoicemute]
+    permission: bydlo.vmute
+  mute:
+    description: Mute chat
+    aliases: [мут, chatmute]
+    permission: bydlo.mute
+  unmute:
+    description: Unmute chat
+    aliases: [размут, chatunmute]
+    permission: bydlo.mute
+  warn:
+    description: Warn a player
+    aliases: [варн, warning]
+    permission: bydlo.warn
+  warns:
+    description: Warn history GUI
+    aliases: [варны, warnings]
+    permission: bydlo.warn
+  unwarn:
+    description: Remove a warn
+    aliases: [снятварн, delwarn]
+    permission: bydlo.warn
+  report:
+    description: Report a player
+    aliases: [репорт, complaint]
+    permission: bydlo.report
+  reports:
+    description: Staff reports GUI
+    aliases: [репорты]
+    permission: bydlo.reports
+  playercard:
+    description: Player punishment card
+    aliases: [карточка, card]
+    permission: bydlo.reports
+  mywarns:
+    description: View your own punishments
+    aliases: [моиварны, mypunishments, моинаказания]
+    permission: bydlo.mycard
+  rchat:
+    description: Chat on claimed report
+    aliases: [рс, рчат]
+    permission: bydlo.report
+  support:
+    description: Support tickets
+    aliases: [поддержка, ticket, тикет]
+    permission: bydlo.ticket
+  schat:
+    description: Chat on support ticket
+    aliases: [пс, пчат]
+    permission: bydlo.ticket
+  mail:
+    description: Send a real letter book
+    aliases: [почта, письмо, letter]
+    permission: bydlo.mail
+  staff:
+    description: Staff toolbox GUI
+    aliases: [стафф, модменю, staffmenu]
+    permission: bydlo.staff
+  spec:
+    description: Silent spectator
+    aliases: [спек, следить, watch]
+    permission: bydlo.spec
+  bydlorestart:
+    description: Cinematic restart
+    aliases: [рестарт, ребут]
+    permission: bydlo.admin
+  bydloshutdown:
+    description: Cinematic shutdown
+    aliases: [выкл, выключение]
+    permission: bydlo.admin
+permissions:
+  bydlo.adminlock:
+    default: op
+  bydlo.adminlock.bypass:
+    default: false
+  bydlo.twitch:
+    default: true
+  bydlo.twitch.admin:
+    default: op
+  bydlo.vmute:
+    default: op
+  bydlo.mute:
+    default: op
+  bydlo.warn:
+    default: op
+  bydlo.report:
+    default: true
+  bydlo.reports:
+    default: op
+  bydlo.mycard:
+    default: true
+  bydlo.ticket:
+    default: true
+  bydlo.support:
+    default: op
+  bydlo.mail:
+    default: true
+  bydlo.staff:
+    default: op
+  bydlo.spec:
+    default: op
+  bydlo.admin:
+    default: op
+    children:
+      bydlo.adminlock: true
+  bydlo.mod:
+    default: op
+    children:
+      bydlo.adminlock: true
+      bydlo.vmute: true
+      bydlo.mute: true
+      bydlo.warn: true
+      bydlo.reports: true
+      bydlo.support: true
+      bydlo.twitch.admin: true
+      bydlo.staff: true
+      bydlo.spec: true
