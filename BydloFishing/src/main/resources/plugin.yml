@@ -1,0 +1,16 @@
+name: BydloFishing
+version: '1.1.0'
+main: ru.bydloland.fishing.BydloFishingPlugin
+api-version: '1.21'
+authors: [Smirty_228]
+softdepend: [CraftEngine]
+description: Кастомная рыбалка — вываживание, именной улов, лава в Аду
+commands:
+  рыбалка:
+    description: Кастомная рыбалка
+    usage: /рыбалка
+    aliases: [fishing, fish, удочка]
+permissions:
+  bydlo.fishing.admin:
+    description: Выдавать удочки и перезагружать
+    default: op

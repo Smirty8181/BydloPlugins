@@ -1,0 +1,49 @@
+name: BydloPrison
+version: '1.0.1'
+main: ru.bydloland.prison.BydloPrisonPlugin
+api-version: '1.21'
+authors: [Smirty_228]
+description: Заключение вместо кика — бан через свинью-наблюдателя
+softdepend: [voicechat, LibertyBans, LiteBans, AdvancedBan, BanManager, Essentials]
+commands:
+  prison:
+    description: Система заключения (бан без кика с сервера)
+    usage: /prison <ban|unban|info|list|setpos|reload> ...
+    aliases: [заключение, bydloprison, заключениебан]
+  заключить:
+    description: Заключить игрока (бан без кика)
+    usage: /заключить <ник> <время> [причина]
+    aliases: [бан, ban, tempban, заключениебан]
+    permission: bydloprison.ban
+  разбан:
+    description: Освободить из заключения
+    usage: /разбан <ник>
+    aliases: [освободить, unban, pardon]
+    permission: bydloprison.unban
+  setprison:
+    description: Точка тюрьмы (где стоишь)
+    usage: /setprison
+    aliases: [тюрьматочка, prisonpos]
+    permission: bydloprison.setpos
+permissions:
+  bydloprison.ban:
+    description: Заключать игроков
+    default: op
+  bydloprison.unban:
+    description: Освобождать игроков
+    default: op
+  bydloprison.info:
+    description: Смотреть информацию о заключении
+    default: op
+  bydloprison.list:
+    description: Список заключённых
+    default: op
+  bydloprison.reload:
+    description: Перезагрузка конфига
+    default: op
+  bydloprison.setpos:
+    description: Точка зоны заключения
+    default: op
+  bydloprison.bypass:
+    description: Обход заключения (админы)
+    default: false

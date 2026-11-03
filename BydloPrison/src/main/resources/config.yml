@@ -1,0 +1,56 @@
+# BydloPrison — заключение вместо кика
+
+# Мир и координаты свиньи (если null — у world spawn)
+prison:
+  world: world
+  x: null
+  y: null
+  z: null
+  yaw: 0
+  pitch: 0
+  # Куда телепортировать после освобождения (null = spawn мира)
+  release-world: world
+  release-x: null
+  release-y: null
+  release-z: null
+
+# Как часто (в тиках) удерживать камеру на свинье
+keep-spectate-ticks: 5
+
+# Проверка истечения бана (тики)
+expiry-check-ticks: 40
+
+# Команды, которые заключённый всё же может использовать (без /)
+allowed-commands: []
+
+messages:
+  prefix: "&d[&5Заключение&d]&r "
+  banned-chat: "&c❌ Вы забанены.&nl&7До окончания наказания: &f{time}"
+  banned-command: "&c❌ Команды недоступны.&nl&7Осталось: &f{time}"
+  banned-write: "&c❌ В заключении только локальный чат.&nl&7Осталось: &f{time}"
+  banned-global: "&c❌ В заключении нельзя писать в глобал (&f!текст&c).&nl&7Только локал. Осталось: &f{time}"
+  banned-action: "&c❌ Вы забанены.&nl&7До окончания наказания: &f{time}"
+  unbanned: "&a✅ Ваш бан закончился."
+  pig-name: "&cЗаключённый: &f{player}"
+  ban-broadcast: "&c{player} &7заключён на &f{time}&7. Причина: &f{reason}"
+  ban-notify: "&cВас заключили на &f{time}&c.&nl&7Причина: &f{reason}&nl&7Локальный чат и войс доступны."
+  permanent: "навсегда"
+  no-permission: "&cНет прав."
+  player-not-found: "&cИгрок не найден."
+  not-imprisoned: "&cИгрок не в заключении."
+  already-imprisoned: "&cИгрок уже в заключении."
+  usage-ban: "&e/бан <ник> <время> [причина] &7или &e/prison ban ..."
+  usage-unban: "&e/разбан <ник>"
+  invalid-duration: "&cНеверное время. Примеры: &f5м 2ч 3д 30д навсегда"
+  setpos-ok: "&aТочка заключения сохранена."
+  reload-ok: "&aКонфиг перезагружен."
+  info-line: "&7{player}&7: &f{time} &7| &7{reason}"
+
+integrations:
+  # Ловить онлайн-баны внешних плагинов и превращать в заключение (кик отменяется)
+  intercept-kicks: true
+  litebans: true
+  libertybans: true
+  advancedban: true
+  banmanager: true
+  essentials: true

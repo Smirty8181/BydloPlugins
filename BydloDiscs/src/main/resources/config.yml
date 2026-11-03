@@ -1,0 +1,44 @@
+prefix: "&d[&5Быдло&d]&r"
+
+# Смена трека раз в N секунд (3600 = 1 час)
+cooldown-seconds: 3600
+# Макс длина трека в секундах
+max-duration-seconds: 360
+# Макс параллельных скачиваний
+download-slots: 1
+# Громкость / дальность SVC
+play-distance: 48.0
+
+tools:
+  # Пути относительно папки плагина или абсолютные. Пусто = bin/ рядом + PATH
+  yt-dlp: ""
+  ffmpeg: ""
+
+allowed-hosts:
+  - youtube.com
+  - www.youtube.com
+  - youtu.be
+  - m.youtube.com
+  - music.youtube.com
+  - vk.com
+  - www.vk.com
+  - m.vk.com
+  - vk.ru
+  - music.yandex.ru
+  - music.yandex.com
+  - yandex.ru
+  - ya.ru
+  - music.vk.com
+
+messages:
+  usage: "&e/пластина <ссылка YouTube> &7(VK/Яндекс часто не качаются без авторизации)"
+  cooldown: "&cСменить музыку можно через &f%time%&c."
+  downloading: "&7Качаю трек… это может занять минуту."
+  done: "&aПластинка готова: &f%title%"
+  failed: "&cYouTube сейчас режет скачивание. Подожди минуту и кинь обычную ссылку watch?v=..."
+  bad-url: "&cСсылка не из белого списка (YouTube / VK / Яндекс)."
+  busy: "&cУже качается трек, подожди."
+  no-voice: "&cСервер не подключил Voice Chat API. Перезапусти сервер или проверь плагин voicechat."
+  play-failed: "&cНе удалось запустить трек (файл повреждён или ошибка SVC). Смотри консоль."
+  playing: "&a▶ &f%title%"
+  stopped: "&7Музыка остановлена."

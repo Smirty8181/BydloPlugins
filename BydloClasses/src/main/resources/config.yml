@@ -1,0 +1,110 @@
+# Расы БыдлоЛенд
+# Добавить расу: скопируй блок, поменяй id → /class reload
+
+settings:
+  default-class: bomzh
+  assign-default-on-join: true
+  self-change-cooldown-ms: 172800000
+  scale-mode: attribute
+  scale-command: "scale %scale% %player%"
+  effect-refresh-ticks: 100
+
+classes:
+  bomzh:
+    display: "<#9CA3AF>Бомж"
+    tab: "<#9CA3AF>[Бомж]"
+    scale: 1.0
+    effects: []
+    flags: []
+    selectable: true
+    icon: PAPER
+    icon-ce: bydlo:race_icon_bomzh
+    lore:
+      - "&7Обычный рост · сет с помойки · бита"
+      - "&aУмеет: &fгниль без вреда · спать где попало"
+      - "&aУмеет: &fлут из бочек · дешевле напивается (×1.35)"
+      - "&cНе может: &fмифрил · титан · магия · катаны самурая"
+
+  dwarf:
+    display: "<#A8D5C0>Дворф"
+    tab: "<#A8D5C0>[Дворф]"
+    scale: 0.7
+    effects:
+      - type: HASTE
+        amplifier: 0
+        ambient: true
+        particles: false
+        icon: false
+    flags:
+      - mithril_smeltery
+    selectable: true
+    icon: PAPER
+    icon-ce: bydlo:race_icon_dwarf
+    lore:
+      - "&aУмеет: &fHaste · мифрил · чует руду · −падение"
+      - "&aУмеет: &fкрепче к алкоголю (×0.6) · хмель дольше"
+      - "&cНе может: &fплавать (тонет) · лошадь/верблюд почти нет"
+      - "&cНе может: &fимпланты · магия · катаны · рост 70%"
+
+  samurai:
+    display: "<#E8E8F0>Самурай"
+    tab: "<#E8E8F0>[Самурай]"
+    scale: 1.1
+    effects:
+      - type: SPEED
+        amplifier: 0
+        ambient: true
+        particles: false
+        icon: false
+    flags:
+      - steel_smelting
+      - samurai_gear
+    selectable: true
+    icon: PAPER
+    icon-ce: bydlo:race_icon_samurai
+    lore:
+      - "&aУмеет: &fрост 110% · сталь · катаны · фонарь/татами"
+      - "&aУмеет: &fчай сидя 8с — реген + сброс рывка"
+      - "&aУмеет: &fчесть (лоб/1v1 сильнее, спина слабее)"
+      - "&7ПКМ рывок · шифт+ПКМ заряд · без чая рывок слабее"
+      - "&cНе может: &fмифрил · импланты · магия · эфириум"
+
+  netrunner:
+    display: "<#7EC8E3>Киберпанк"
+    tab: "<#7EC8E3>[Киберпанк]"
+    scale: 1.0
+    effects: []
+    flags:
+      - titan_smeltery
+      - implants
+    selectable: true
+    icon: PAPER
+    icon-ce: bydlo:race_icon_netrunner
+    lore:
+      - "&aУмеет: &fимпланты у Рипера · титан · кибер-оружие"
+      - "&aУмеет: &fночью светится и видит без факела"
+      - "&cНе может: &fвода/дождь коротит импланты"
+      - "&cНе может: &fмифрил · магия · катаны самурая"
+
+  mage:
+    display: "<#C9A0FF>Маг"
+    tab: "<#C9A0FF>[Маг]"
+    scale: 1.0
+    effects:
+      - type: SLOW_FALLING
+        amplifier: 0
+        ambient: true
+        particles: false
+        icon: false
+    flags:
+      - etherium_smeltery
+      - mage_gear
+      - magic_tower
+    selectable: true
+    icon: PAPER
+    icon-ce: bydlo:race_icon_mage
+    lore:
+      - "&aУмеет: &fмедленное падение · эфириум · посохи"
+      - "&aУмеет: &fфамильяр (кот/ворон) · башня магии"
+      - "&aУмеет: &fулучшенные зачары (стол / наковальня / книги)"
+      - "&cНе может: &fмифрил · импланты · катаны самурая"

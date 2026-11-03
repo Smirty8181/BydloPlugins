@@ -1,0 +1,92 @@
+prefix: "&d[&5Рыбалка&d]&r "
+
+minigame:
+  bar-width: 21
+  progress-start: 0.24
+
+rods:
+  vanilla:
+    lava: false
+    window: 5
+    fill: 0.014
+    drain: 0.016
+    fish-speed: 0.42
+    dash: 0.07
+    lift: 0.34
+    fall: 0.30
+    wait-min: 60
+    wait-max: 160
+  oak:
+    lava: false
+    window: 6
+    fill: 0.016
+    drain: 0.014
+    fish-speed: 0.40
+    dash: 0.07
+    lift: 0.36
+    fall: 0.28
+    wait-min: 50
+    wait-max: 140
+  steel:
+    lava: false
+    window: 8
+    fill: 0.020
+    drain: 0.011
+    fish-speed: 0.36
+    dash: 0.06
+    lift: 0.40
+    fall: 0.26
+    wait-min: 40
+    wait-max: 110
+  nether:
+    lava: true
+    window: 8
+    fill: 0.018
+    drain: 0.013
+    fish-speed: 0.48
+    dash: 0.11
+    lift: 0.40
+    fall: 0.28
+    wait-min: 35
+    wait-max: 100
+  abyss:
+    lava: true
+    window: 10
+    fill: 0.024
+    drain: 0.009
+    fish-speed: 0.44
+    dash: 0.09
+    lift: 0.44
+    fall: 0.24
+    wait-min: 25
+    wait-max: 80
+
+loot:
+  extra-chance: 0.22
+  water:
+    - { id: minecraft:cod, weight: 18, min: 1, max: 2 }
+    - { id: minecraft:salmon, weight: 12, min: 1, max: 2 }
+    - { id: minecraft:cooked_salmon, weight: 8, min: 1, max: 2 }
+    - { id: minecraft:bread, weight: 8, min: 1, max: 3 }
+    - { id: minecraft:iron_ingot, weight: 10, min: 1, max: 2 }
+    - { id: minecraft:coal, weight: 8, min: 2, max: 5 }
+    - { id: minecraft:name_tag, weight: 3, min: 1, max: 1 }
+    - { id: minecraft:saddle, weight: 2, min: 1, max: 1 }
+    - { id: minecraft:nautilus_shell, weight: 3, min: 1, max: 1 }
+    - { id: minecraft:enchanted_book, weight: 2, min: 1, max: 1 }
+    - { id: minecraft:diamond, weight: 1, min: 1, max: 1 }
+    - { id: bydlo:steel_ingot, weight: 3, min: 1, max: 1 }
+    - { id: bydlo:raw_mithril, weight: 1, min: 1, max: 1 }
+  lava:
+    - { id: minecraft:magma_cream, weight: 16, min: 1, max: 2 }
+    - { id: minecraft:gold_nugget, weight: 16, min: 2, max: 6 }
+    - { id: minecraft:gold_ingot, weight: 10, min: 1, max: 2 }
+    - { id: minecraft:quartz, weight: 12, min: 2, max: 5 }
+    - { id: minecraft:blaze_powder, weight: 10, min: 1, max: 2 }
+    - { id: minecraft:blaze_rod, weight: 6, min: 1, max: 1 }
+    - { id: minecraft:ghast_tear, weight: 4, min: 1, max: 1 }
+    - { id: minecraft:netherite_scrap, weight: 3, min: 1, max: 1 }
+    - { id: minecraft:ancient_debris, weight: 1, min: 1, max: 1 }
+    - { id: minecraft:netherite_ingot, weight: 1, min: 1, max: 1 }
+    - { id: bydlo:raw_titan, weight: 2, min: 1, max: 1 }
+    - { id: bydlo:titan_ingot, weight: 1, min: 1, max: 1 }

@@ -1,0 +1,79 @@
+# Префиксы — только иконки (шрифт bydlo:icons)
+
+settings:
+  menu-title: "§dПрефиксы"
+  player-menu-title: "§dКому выдать"
+
+prefixes:
+  bydlo:
+    tab: " §r<image:bydlo:rank_bydlo>"
+    display: "<#F5D0FE>Быдло"
+    icon: POTION
+    lore:
+      - "<white>Балтика 9"
+      - "<gray>Фирменный префикс"
+
+  twitch:
+    tab: " §r<image:bydlo:rank_twitch>"
+    display: "<#9146FF>Твич"
+    icon: PURPLE_BANNER
+    lore:
+      - "<white>Стример"
+      - "<gray>Команда /twitch"
+    luckperms-group: twitch
+
+  admin:
+    tab: " §r<image:bydlo:rank_admin>"
+    display: "<#F87171>Админ"
+    icon: REDSTONE
+    lore:
+      - "<red>/gm /god /fly /give"
+    luckperms-group: admin
+
+  moderator:
+    tab: " §r<image:bydlo:rank_mod>"
+    display: "<#60A5FA>Мод"
+    icon: LAPIS_LAZULI
+    lore:
+      - "<aqua>Модерация + InvSee"
+    luckperms-group: mod
+
+  vip:
+    tab: " §r<image:bydlo:rank_vip>"
+    display: "<#22D3EE>VIP"
+    icon: DIAMOND
+    lore:
+      - "<aqua>Донат"
+    luckperms-group: vip
+
+  helper:
+    tab: " §r<image:bydlo:rank_helper>"
+    display: "<#4ADE80>Хелпер"
+    icon: EMERALD
+    lore:
+      - "<green>Помощь"
+    luckperms-group: helper
+
+  chernaya_metka:
+    tab: " §r<image:bydlo:rank_mark>"
+    display: "<#7F1D1D>Чёрная метка"
+    icon: WITHER_SKELETON_SKULL
+    lore:
+      - "<gray>Временная метка после варна"
+      - "<dark_gray>Не выдаётся из меню"
+
+  owner:
+    tab: " §r<image:bydlo:rank_owner>"
+    display: "<#FB923C>Владелец"
+    icon: NETHER_STAR
+    lore:
+      - "<gold>Владелец"
+    luckperms-group: admin
+
+  tattoo_master:
+    tab: " §r<image:bydlo:rank_tattoo>"
+    display: "<#C084FC>Тату-мастер"
+    icon: INK_SAC
+    lore:
+      - "<white>Бьёт наколки"
+      - "<gray>Свой рисунок на скин"

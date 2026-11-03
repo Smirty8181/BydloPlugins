@@ -1,0 +1,19 @@
+name: BydloClasses
+version: 1.4.0
+main: ru.bydloland.classes.BydloClassesPlugin
+api-version: "1.21"
+authors: [Smirty_228]
+softdepend: [PlaceholderAPI, NoobScale, TAB, CraftEngine, ExcellentEnchants, GSit]
+description: Расы БыдлоЛенд — /раса раз в 2 дня, админы без лимита
+commands:
+  class:
+    description: Выбор расы (/раса)
+    usage: /раса
+    aliases: [раса, расы, класс, classes, races, bydloclass, classselect, race]
+permissions:
+  bydloclasses.use:
+    description: Выбрать расу себе (с кулдауном)
+    default: true
+  bydloclasses.admin:
+    description: Менять расу любому без кулдауна
+    default: op

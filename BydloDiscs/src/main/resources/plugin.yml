@@ -1,0 +1,20 @@
+name: BydloDiscs
+version: '1.0.2'
+main: ru.bydloland.discs.BydloDiscsPlugin
+api-version: '1.21'
+author: Smirty_228
+description: Custom music discs from YouTube/VK/Yandex links
+softdepend: [voicechat]
+commands:
+  disc:
+    description: Create or update your personal music disc
+    aliases: [пластина, мояпластина, mydisc]
+    permission: bydlo.disc
+    usage: /пластина <ссылка>
+permissions:
+  bydlo.disc:
+    description: Create personal custom disc
+    default: true
+  bydlo.disc.bypasscooldown:
+    description: Bypass disc change cooldown
+    default: op

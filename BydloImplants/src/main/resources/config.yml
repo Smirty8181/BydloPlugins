@@ -1,0 +1,129 @@
+# Импланты Киберпанка — БыдлоЛенд
+# ПКМ по иконке — выбрать вариант; ЛКМ — установить/апгрейд
+max-installed: 3
+cost-ingots: [4, 8, 14]
+effect-refresh-ticks: 100
+auto-cosmetic: true
+particle-visuals: true
+
+categories:
+  nerves:
+    display: "§b⚡ Нервы"
+    icon: PAPER
+    icon-ce: bydlo:implant_nerves_icon
+    default-variant: synaptic
+    lore:
+      - "§7Нейросвязь и скорость реакции"
+    variants:
+      synaptic:
+        display: "§bСинаптический"
+        levels:
+          - "§fL1 §7— атака ×норма, §a+0.2§7 скорость атаки"
+          - "§fL2 §7— §a+0.4§7 скорость атаки"
+          - "§fL3 §7— §a+0.6§7 скорость атаки"
+      reflex:
+        display: "§bРефлекс"
+        levels:
+          - "§fL1 §7— Resistance I (редко)"
+          - "§fL2 §7— Resistance I"
+          - "§fL3 §7— Resistance II"
+  heart:
+    display: "§c❤ Сердце"
+    icon: PAPER
+    icon-ce: bydlo:implant_heart_icon
+    default-variant: core
+    lore:
+      - "§7Запас здоровья и реген"
+    variants:
+      core:
+        display: "§cКардиомодуль"
+        levels:
+          - "§fL1 §7— §a+2§7 HP"
+          - "§fL2 §7— §a+4§7 HP"
+          - "§fL3 §7— §a+6§7 HP + Regeneration I"
+      pump:
+        display: "§cКибер-насос"
+        levels:
+          - "§fL1 §7— Regeneration I"
+          - "§fL2 §7— Regeneration I + §a+2§7 HP"
+          - "§fL3 §7— Regeneration II + §a+4§7 HP"
+  brain:
+    display: "§d✦ Мозг"
+    icon: PAPER
+    icon-ce: bydlo:implant_brain_icon
+    default-variant: neural
+    lore:
+      - "§7Нейросеть и ускорение"
+    variants:
+      neural:
+        display: "§dНейросеть"
+        levels:
+          - "§fL1 §7— визуал нейроинтерфейса"
+          - "§fL2 §7— Night Vision"
+          - "§fL3 §7— Night Vision + Haste I"
+      overclock:
+        display: "§dОверклок"
+        levels:
+          - "§fL1 §7— Haste I"
+          - "§fL2 §7— Haste I + Night Vision"
+          - "§fL3 §7— Haste II + Night Vision"
+  eyes:
+    display: "§a◎ Глаза"
+    icon: PAPER
+    icon-ce: bydlo:implant_eyes_icon
+    default-variant: optic
+    lore:
+      - "§7Зрение и прицел"
+    variants:
+      optic:
+        display: "§aОкуляры"
+        levels:
+          - "§fL1 §7— светящиеся окуляры"
+          - "§fL2 §7— Night Vision"
+          - "§fL3 §7— Night Vision + Conduit Power"
+      sniper:
+        display: "§aСнайпер"
+        levels:
+          - "§fL1 §7— лук без штрафа"
+          - "§fL2 §7— Night Vision + лук сильнее"
+          - "§fL3 §7— Night Vision + сильный лук"
+  arms:
+    display: "§6⚔ Руки"
+    icon: PAPER
+    icon-ce: bydlo:implant_arms_icon
+    default-variant: servo
+    lore:
+      - "§7Сила и добыча"
+    variants:
+      servo:
+        display: "§6Сервоприводы"
+        levels:
+          - "§fL1 §7— снимает Mining Fatigue, визуал кулаков"
+          - "§fL2 §7— Haste I при добыче"
+          - "§fL3 §7— Haste II + Strength I"
+      wrecker:
+        display: "§6Крушитель"
+        levels:
+          - "§fL1 §7— §a+1§7 урон"
+          - "§fL2 §7— §a+2§7 урон"
+          - "§fL3 §7— §a+3§7 урон + Strength I"
+  legs:
+    display: "§e⚡ Ноги"
+    icon: PAPER
+    icon-ce: bydlo:implant_legs_icon
+    default-variant: dash
+    lore:
+      - "§7Скорость и прыжок"
+    variants:
+      dash:
+        display: "§eУскорители"
+        levels:
+          - "§fL1 §7— Speed I"
+          - "§fL2 §7— Speed I (дольше)"
+          - "§fL3 §7— Speed II"
+      jumper:
+        display: "§eПрыгун"
+        levels:
+          - "§fL1 §7— Jump Boost I"
+          - "§fL2 §7— Jump Boost I + Speed I"
+          - "§fL3 §7— Jump Boost II + Speed I"

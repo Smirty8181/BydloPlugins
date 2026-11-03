@@ -1,0 +1,20 @@
+name: BydloPaint
+version: 1.0.0
+main: ru.bydloland.paint.BydloPaintPlugin
+api-version: "1.21"
+authors: [Smirty_228]
+description: Paint on crafted canvases (wool + sticks), max 10x10 maps
+commands:
+  canvas:
+    description: Canvas help / admin give
+    usage: /canvas | /полотно
+    aliases:
+      - "\u043f\u043e\u043b\u043e\u0442\u043d\u043e"
+      - paintcanvas
+permissions:
+  bydlopaint.use:
+    description: Craft and paint canvases
+    default: true
+  bydlopaint.admin:
+    description: Admin canvas commands
+    default: op

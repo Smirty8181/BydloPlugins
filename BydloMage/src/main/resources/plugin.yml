@@ -1,0 +1,20 @@
+name: BydloMage
+version: 1.0.0
+main: ru.bydloland.mage.BydloMagePlugin
+api-version: "1.21"
+authors: [Smirty_228]
+depend: [BydloClasses]
+softdepend: [CraftEngine]
+description: Mage race — staffs and magic tower
+commands:
+  magetower:
+    description: Open magic tower GUI
+    usage: /magetower | /башня
+    aliases:
+      - "\u0431\u0430\u0448\u043d\u044f"
+      - mage
+permissions:
+  bydlomage.use:
+    default: true
+  bydlomage.admin:
+    default: op

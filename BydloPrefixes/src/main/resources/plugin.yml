@@ -1,0 +1,18 @@
+name: BydloPrefixes
+version: 1.3.0
+main: ru.bydloland.prefixes.BydloPrefixesPlugin
+api-version: "1.21"
+authors: [Smirty_228]
+softdepend: [PlaceholderAPI, TAB, LuckPerms]
+description: Префиксы TAB + группы LuckPerms
+commands:
+  prefix:
+    description: Меню префиксов (админ)
+    usage: /префикс
+    aliases: [префикс, prefixes, pref]
+    permission: bydloprefixes.admin
+    permission-message: "§cТолько админы"
+permissions:
+  bydloprefixes.admin:
+    description: Создавать и выдавать префиксы
+    default: op

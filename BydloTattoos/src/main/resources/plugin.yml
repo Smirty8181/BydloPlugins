@@ -1,0 +1,19 @@
+name: BydloTattoos
+version: '1.2.5'
+main: ru.bydloland.tattoos.BydloTattoosPlugin
+api-version: '1.21'
+authors: [Smirty_228]
+softdepend: [SkinsRestorer, CraftEngine, BydloPrefixes, LuckPerms]
+description: Тату на скине — мастер рисует, можно себе
+commands:
+  тату:
+    description: Татуировки БыдлоЛенд
+    usage: /тату
+    aliases: [tattoo, tattoos, наколки, наколкa]
+permissions:
+  bydlo.tattoo.artist:
+    description: Мастер — может бить и сводить тату
+    default: false
+  bydlo.tattoo.admin:
+    description: Выдавать мастеров, снимать любые тату
+    default: op

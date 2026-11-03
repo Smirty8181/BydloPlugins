@@ -1,0 +1,20 @@
+name: BydloCrafts
+version: 1.1.2
+main: ru.bydloland.crafts.BydloCraftsPlugin
+api-version: "1.21"
+authors: [Smirty_228]
+softdepend: [CraftEngine]
+description: Visual crafting recipes GUI for BydloLand
+commands:
+  crafts:
+    description: Open crafts GUI
+    usage: /crafts | /крафты
+    aliases:
+      - "\u043a\u0440\u0430\u0444\u0442\u044b"
+      - "\u043a\u0440\u0430\u0444\u0442"
+      - craftbook
+      - recipesgui
+permissions:
+  bydlocrafts.use:
+    description: Open crafts GUI
+    default: true

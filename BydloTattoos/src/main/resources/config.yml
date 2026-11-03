@@ -1,0 +1,84 @@
+prefix: "&d[&5Тату&d]&r "
+
+# Ключ MineSkin не обязателен. Если тату не накладываются — возьми на https://account.mineskin.org/keys
+# и вставь сюда (msk_...), потом /тату reload не нужно: перезапусти плагин.
+mineskin-api-key: ""
+
+# Сколько блоков до клиента, чтобы бить
+range: 4
+
+# Цена удара (забирается у мастера)
+cost:
+  material: INK_SAC
+  amount: 1
+
+# Свести дороже
+remove-cost:
+  material: GOLD_INGOT
+  amount: 3
+
+machine:
+  material: SHEARS
+  name: "&5Тату-машинка"
+  lore:
+    - "&7ПКМ по игроку — набить"
+    - "&7ПКМ в воздух — себе"
+    - "&8Мастер рисует наколку сам"
+
+tattoos:
+  cross:
+    name: "&8Железный крест"
+    file: cross.png
+    slots: [chest, back]
+  star:
+    name: "&7Звезда"
+    file: star.png
+    slots: [arm_right, arm_left]
+  star_gold:
+    name: "&6Золотая звезда"
+    file: star_gold.png
+    slots: [chest, back]
+  knuckles:
+    name: "&8Кастет"
+    file: knuckles.png
+    slots: [arm_right, arm_left]
+  knife:
+    name: "&8Нож"
+    file: knife.png
+    slots: [arm_right, arm_left]
+  flip:
+    name: "&8Бабочка"
+    file: flip.png
+    slots: [arm_right, arm_left]
+  crown:
+    name: "&6Корона"
+    file: crown.png
+    slots: [face, chest]
+  anchor:
+    name: "&9Якорь"
+    file: anchor.png
+    slots: [chest, back]
+  saw:
+    name: "&8Пила"
+    file: saw.png
+    slots: [arm_right, back]
+  heart:
+    name: "&cСердце"
+    file: heart.png
+    slots: [chest]
+  firebird:
+    name: "&6Жар-птица"
+    file: firebird.png
+    slots: [back]
+  tear:
+    name: "&bСлеза"
+    file: tear.png
+    slots: [face]
+  spider:
+    name: "&8Паук"
+    file: spider.png
+    slots: [chest, back]
+  brand:
+    name: "&4Клеймо"
+    file: brand.png
+    slots: [face, chest]
